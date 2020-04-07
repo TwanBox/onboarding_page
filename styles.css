@@ -1,0 +1,123 @@
+body {
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(../images/bg-intro-desktop.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Poppins";
+    font-size: 16px;
+    
+}
+
+h1 {
+    font-weight: 600;
+    color: #fff;
+    margin: 1em;
+    font-size: 2rem;
+
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+
+}
+
+.heading {
+    margin-top: 20%;
+}
+
+.cta {
+    background-color: #5d54a3;
+    padding-top: 15px;
+    padding-bottom: 9px;
+    margin: 0% 8%;
+    line-height: 1rem;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    box-shadow: 0px 8px 3px #e76;
+
+}
+
+.cta h3 {
+    font-size: medium;
+    color: white;
+    font-weight: 400;
+}
+
+.line-2 {
+    color: #fff;
+    margin: 0% 8% 8%;
+}
+
+.forms {
+    background-color: white;
+    margin: 0% 8%;
+    box-shadow: 0px 8px 3px #e67;
+    padding-top: 15px;
+    padding-bottom: 9px;
+    border-radius: 8px;
+    
+}    
+
+.textb {
+    padding: 13px;
+    border: 1px solid gray;
+    margin: 13px 30px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.textb input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.terms {
+    font-size: small;
+    padding-top: 0.8rem;
+    margin-top: 15px;
+}
+
+#btn-free {
+    padding: 11px 0px;
+    margin-left: 29px;
+    width: 86%;
+    
+}
+
+.end {
+    text-align: center;
+}
+
+@media (min-width: 980px) {
+   
+    #col-right {
+        margin-top: 200px;
+    }
+
+    #col-left {
+        margin-top: 200px;
+        text-align: left;
+    }
+
+    #col-left span {
+        display: block;
+    }
+
+    .heading {
+        font-size: 45px;
+
+    }
+
+    .line-2 {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    
+}
